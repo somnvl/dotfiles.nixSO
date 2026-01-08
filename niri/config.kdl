@@ -107,7 +107,7 @@ output "eDP-1" {
 // Find more information on the wiki:
 // https://yalter.github.io/niri/Configuration:-Layout
 layout {
-    backdrop-color "00000000"
+    background-color "00000000"
     // Set gaps around windows in logical pixels.
     gaps 10
 
@@ -634,6 +634,7 @@ binds {
     // moving the mouse or pressing any other key.
     Mod+Shift+P { power-off-monitors; }
 }
+
 
 
 
