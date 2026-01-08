@@ -107,6 +107,7 @@ output "eDP-1" {
 // Find more information on the wiki:
 // https://yalter.github.io/niri/Configuration:-Layout
 layout {
+    backdrop-color "00000000"
     // Set gaps around windows in logical pixels.
     gaps 10
 
@@ -164,7 +165,7 @@ layout {
         // - CSS-like notation: "rgb(255, 127, 0)", rgba(), hsl() and a few others.
 
         // Color of the ring on the active monitor.
-        active-gradient from="#2a2a2a" to="#404040" angle=135 relative-to="workspace-view"
+        active-gradient from="#2a2a2a" to="#000000" angle=135 relative-to="workspace-view"
 
         // Color of the ring on inactive monitors.
         //
@@ -276,7 +277,7 @@ layer-rule {
 }
 
 overview {
-    zoom 0.25
+    zoom 0.5
     backdrop-color "00000000" 
 }
 
@@ -633,6 +634,7 @@ binds {
     // moving the mouse or pressing any other key.
     Mod+Shift+P { power-off-monitors; }
 }
+
 
 
 
