@@ -277,7 +277,7 @@ layer-rule {
 
 overview {
     zoom 0.25
-    backdrop-color "tranparent" 
+    backdrop-color "00000000" 
 }
 
 hotkey-overlay {
@@ -633,6 +633,7 @@ binds {
     // moving the mouse or pressing any other key.
     Mod+Shift+P { power-off-monitors; }
 }
+
 
 
 
