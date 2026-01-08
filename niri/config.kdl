@@ -361,7 +361,6 @@ binds {
     // Suggested binds for running programs: terminal, app launcher, screen locker.
     Mod+T hotkey-overlay-title="Terminal" { spawn "kitty"; }
     Mod+D hotkey-overlay-title="Launcher" { spawn "fuzzel"; }
-    Mod+W hotkey-overlay-title="Wallpaper Manager" { spawn "waypaper"; }
 
     // Use spawn-sh to run a shell command. Do this if you need pipes, multiple commands, etc.
     // Note: the entire command goes as a single argument. It's passed verbatim to `sh -c`.
@@ -624,6 +623,7 @@ binds {
     // moving the mouse or pressing any other key.
     Mod+Shift+P { power-off-monitors; }
 }
+
 
 
 
