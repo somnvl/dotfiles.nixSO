@@ -271,12 +271,13 @@ spawn-at-startup "swww-daemon"
 // spawn-sh-at-startup "qs -c ~/source/qs/MyAwesomeShell"
 
 layer-rule {
-    match namespace="^wallpaper$"  // Adapte si ton daemon a un autre namespace (vérifie avec niri msg layers)
+    match namespace="^swww-daemon$"
     place-within-backdrop true
 }
 
 overview {
-    backdrop-color "00000000"  // Transparent pour voir le wallpaper
+    zoom 0.25
+    backdrop-color "tranparent" 
 }
 
 hotkey-overlay {
@@ -632,6 +633,7 @@ binds {
     // moving the mouse or pressing any other key.
     Mod+Shift+P { power-off-monitors; }
 }
+
 
 
 
