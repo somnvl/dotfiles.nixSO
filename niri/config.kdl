@@ -37,7 +37,7 @@ input {
         dwtp
         drag-lock
         natural-scroll
-        accel-speed 0.2
+        accel-speed 0.3
         accel-profile "adaptive"
         scroll-method "two-finger"
     }
@@ -623,3 +623,4 @@ binds {
     // moving the mouse or pressing any other key.
     Mod+Shift+P { power-off-monitors; }
 }
+
