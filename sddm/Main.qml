@@ -1,6 +1,5 @@
 import QtQuick 2.0
 import SddmComponents 2.0
-import QtMultimedia 5.15  // ← AJOUTE CETTE LIGNE EN HAUT
 import "components"
 import "utils/ConfigManager.js" as ConfigManager
 import "utils/NavigationHandler.js" as NavigationHandler
@@ -9,37 +8,22 @@ Rectangle {
     id: mainRect
     focus: true
     
-    property string activeSelector: "password"
-    property int activePowerButton: 0
+    property string activeSelector: "password" // "password", "user", "session", "power"
+    property int activePowerButton: 0 // 0=shutdown, 1=restart, 2=suspend
     property bool capsLockActive: false
-
+    
+    // Config properties
     color: config.stringValue("background") || '#000000'
     property string backgroundImage: config.stringValue("backgroundImage") || ""
-
-    // ===== DÉBUT SECTION MP4/GIF =====
-    MediaPlayer {
-        id: bgPlayer
-        source: mainRect.backgroundImage
-        autoPlay: true
-        loops: MediaPlayer.Infinite
-        volume: 0
-    }
-
-    VideoOutput {
-        anchors.fill: parent
-        source: bgPlayer
-        fillMode: VideoOutput.PreserveAspectCrop
-    }
-
-    // Fallback image si vidéo échoue
+    
+    // Background image
     Image {
+        id: backgroundImageComponent
         anchors.fill: parent
         source: mainRect.backgroundImage
         fillMode: Image.PreserveAspectCrop
-        smooth: true
-        visible: bgPlayer.status === MediaPlayer.NoMedia || bgPlayer.status === MediaPlayer.InvalidMedia
+        visible: mainRect.backgroundImage !== ""
     }
-    // ===== FIN SECTION MP4/GIF =====
     property int animationDuration: config.intValue("animationDuration") || 200
     property int fadeInDuration: config.intValue("fadeInDuration") || 300
     property int elementSpacing: config.intValue("elementSpacing") || 15
