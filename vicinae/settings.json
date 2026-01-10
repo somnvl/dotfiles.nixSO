@@ -32,8 +32,6 @@
       }
    },
    "favorites": [
-      "applications:google-chrome",
-      "clipboard:history"
    ],
    "providers": {
       "@Gelei/store.vicinae.bluetooth": {
@@ -41,45 +39,12 @@
             "connectionToggleable": true
          }
       },
-      "@asubbotin/store.raycast.pomodoro": {
-         "enabled": false,
-         "preferences": {
-            "enableConfetti": true,
-            "enableFocusWhileFocused": false,
-            "enableImage": false,
-            "enableQuote": true
-         }
-      },
-      "@josephschmitt/store.raycast.gif-search": {
-         "enabled": false
-      },
-      "@mattisssa/store.raycast.spotify-player": {
-         "enabled": false,
-         "preferences": {
-            "closeWindowOnAction": false
-         }
-      },
-      "@mblode/store.raycast.google-search": {
-         "enabled": false,
-         "preferences": {
-            "rememberSearchHistory": false
-         }
-      },
       "@sovereign/store.vicinae.awww-switcher": {
          "preferences": {
             "toggleVicinaeSetting": true,
             "transitionType": "fade",
-            "wallpaperPath": "/home/so/Pictures/wallpapers/"
+            "wallpaperPath": " ~/Pictures/wallpapers"
          }
-      },
-      "@third774/store.raycast.perplexity": {
-         "enabled": false
-      },
-      "@thomas/store.raycast.visual-studio-code": {
-         "enabled": false
-      },
-      "@tonka3000/store.raycast.gmail": {
-         "enabled": false
       },
       "applications": {
          "preferences": {
