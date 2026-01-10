@@ -47,11 +47,11 @@ configuration {
 window {
     /* properties for window widget */
     transparency:                "real";
-    location:                    west;
+    location:                    center;
     anchor:                      center;
     fullscreen:                  false;
     width:                       50%;
-    height:                      50%;
+    height:                      40%;
     x-offset:                    0px;
     y-offset:                    0px;
 
@@ -62,7 +62,7 @@ window {
     border-radius:               15px;
     border-color:                @border-colour;
     cursor:                      "default";
-    background-color:            @background-colour;
+    background-color:            @000000CC;
 }
 
 /*****----- Main Box -----*****/
