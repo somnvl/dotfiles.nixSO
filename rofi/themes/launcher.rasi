@@ -62,7 +62,7 @@ window {
     border-radius:               15px;
     border-color:                @border-colour;
     cursor:                      "default";
-    background-color:            rgba(@background-colour, 0.8);
+    background-color:            @background-colour;
 }
 
 /*****----- Main Box -----*****/
