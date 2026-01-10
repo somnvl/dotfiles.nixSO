@@ -1,75 +1,33 @@
+# Ayu Dark - Modern Minimal Dark Theme
+# The darkest variant of the beautiful Ayu theme
+
 [meta]
-name = "Dark Blue"
-description = "Dark blue-gray palette"
+version = 1
+name = "Ayu Dark"
+description = "Modern minimal dark theme with deep colors"
 variant = "dark"
-inherits = "vicinae-dark"
-icon = "icons/theme-name.png"
+icon = "icons/ayu.png"
 
 [colors.core]
-accent = "#4b5a6e"
-accent_foreground = "#d1e0f4"
-background = "#000000"
-foreground = "#a1b0c4"
-secondary_background = "#13151a"
-border = "#1b2a3e"
-
-[colors.main_window]
-border = "#1b2a3e"
-
-[colors.settings_window]
-border = "#1b2a3e"
+background = "#0B0E14"        # UI background (darker than editor)
+foreground = "#BFBDB6"        # Main text
+secondary_background = "#0F131A"  # Editor background (elevated)
+border = "#1A1F29"            # Line color
+accent = "#59C2FF"            # Tag color
 
 [colors.accents]
-blue = "#4b5a6e"
-green = "#7b8a9e"
-magenta = "#6b7a8e"
-orange = "#8b9aae"
-red = "#5d6c80"
-yellow = "#7b8a9e"
-cyan = "#6b7a8e"
-purple = "#6b7a8e"
-
-[colors.text]
-default = "#a1b0c4"
-muted = "#7b8a9e"
-danger = "#5d6c80"
-success = "#7b8a9e"
-placeholder = "#7b8a9e"
-selection = { background = "#4b5a6e", foreground = "#d1e0f4" }
-
-[colors.text.links]
-default = "#4b5a6e"
-visited = "#6b7a8e"
-
-[colors.input]
-border = "#1b2a3e"
-border_focus = "#4b5a6e"
-border_error = "#5d6c80"
-
-[colors.button.primary]
-background = "#1b2a3e"
-foreground = "#a1b0c4"
-hover = { background = "#2b3a4e" }
-focus = { outline = "colors.core.accent" }
-
-[colors.list.item.hover]
-background = "#1b2a3e"
-foreground = "#a1b0c4"
+blue = "#59C2FF"              # Entity
+green = "#AAD94C"             # String
+magenta = "#D2A6FF"           # Constant
+orange = "#FF8F40"            # Keyword
+purple = "#D2A6FF"            # Constant
+red = "#F07178"               # Error/VCS removed
+yellow = "#FFB454"            # Function
+cyan = "#95E6CB"              # Regexp
 
 [colors.list.item.selection]
-background = "#13151a"
-foreground = "#c1d0e4"
-secondary_background = "#1b2a3e"
-secondary_foreground = "#a1b0c4"
+background = { name = "#131721", opacity = 0.7 }  # Slightly lighter than UI bg
+secondary_background = "#1A1F29"  # Line color on secondary
 
-[colors.grid.item]
-background = "#13151a"
-hover = { outline = "#a1b0c4" }
-selection = { outline = "#c1d0e4" }
-
-[colors.scrollbars]
-background = "#1b2a3e"
-
-[colors.loading]
-bar = "#a1b0c4"
-spinner = "#7b8a9e"
+[colors.list.item.hover]
+background = "#0E1017"        # Very subtle hover
