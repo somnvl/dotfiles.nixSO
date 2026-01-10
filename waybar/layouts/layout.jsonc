@@ -3,7 +3,7 @@
     "position" : "top",
     "width" : 2560,
     "height" : 20,
-    "margin" : "5 0",
+    "margin" : "5 5",
 
     "group/gleft1" : {
         "orientation": "horizontal",
