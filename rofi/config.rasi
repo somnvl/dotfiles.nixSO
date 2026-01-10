@@ -7,6 +7,8 @@ configuration {
 	matching: "normal";
 	tokenize: true;
 
+	rofi-theme: "themes/launcher.rasi";
+
 	/*---------- Drun settings ----------*/
 	drun-match-fields: "name,exec,generic,comment";
 	drun-display-format: "{name}";
