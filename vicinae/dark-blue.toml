@@ -8,16 +8,16 @@ icon = ""
 [colors.core]
 accent = "#4b5a6e"
 accent_foreground = "#d1e0f4"
-background = "#000000"
+background = "#17181c"
 foreground = "#a1b0c4"
-secondary_background = "#13151a"
-border = "#1b2a3e"
+secondary_background = "#1b2a3e"
+border = "#2b3a4e"
 
 [colors.main_window]
-border = "#1b2a3e"
+border = "#2b3a4e"
 
 [colors.settings_window]
-border = "#1b2a3e"
+border = "#2b3a4e"
 
 [colors.accents]
 blue = "#4b5a6e"
@@ -42,33 +42,33 @@ default = "#4b5a6e"
 visited = "#6b7a8e"
 
 [colors.input]
-border = "#1b2a3e"
+border = "#2b3a4e"
 border_focus = "#4b5a6e"
 border_error = "#5d6c80"
 
 [colors.button.primary]
 background = "#1b2a3e"
 foreground = "#a1b0c4"
-hover = { background = "#2b3a4e" }
+hover = { background = "#4b5a6e" }
 focus = { outline = "colors.core.accent" }
 
 [colors.list.item.hover]
-background = "#1b2a3e"
-foreground = "#a1b0c4"
+background = "#4b5a6e"
+foreground = "#d1e0f4"
 
 [colors.list.item.selection]
-background = "#13151a"
-foreground = "#c1d0e4"
-secondary_background = "#1b2a3e"
-secondary_foreground = "#a1b0c4"
+background = "#4b5a6e"
+foreground = "#d1e0f4"
+secondary_background = "#6b7a8e"
+secondary_foreground = "#d1e0f4"
 
 [colors.grid.item]
-background = "#13151a"
-hover = { outline = "#a1b0c4" }
-selection = { outline = "#c1d0e4" }
+background = "#1b2a3e"
+hover = { outline = "#4b5a6e" }
+selection = { outline = "#4b5a6e" }
 
 [colors.scrollbars]
-background = "#1b2a3e"
+background = "#2b3a4e"
 
 [colors.loading]
 bar = "#a1b0c4"
