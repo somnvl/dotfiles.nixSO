@@ -12,7 +12,7 @@
 
 
 configuration {
-    show-icons:                 true;
+    show-icons:                 false;
 	drun-display-format:        "{name}";
 }
 
@@ -48,10 +48,10 @@ window {
     /* properties for window widget */
     transparency:                "real";
     location:                    west;
-    anchor:                      west;
+    anchor:                      center;
     fullscreen:                  false;
-    width:                       450px;
-    height:                      100%;
+    width:                       50%;
+    height:                      50%;
     x-offset:                    0px;
     y-offset:                    0px;
 
@@ -62,7 +62,7 @@ window {
     border-radius:               15px;
     border-color:                @border-colour;
     cursor:                      "default";
-    background-color:            @background-colour;
+    background-color:            rgba(@background-colour, 0.8);
 }
 
 /*****----- Main Box -----*****/
