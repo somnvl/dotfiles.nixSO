@@ -86,7 +86,7 @@
                "enabled": false
             },
             "keybind-settings": {
-               "enabled": false
+               "enabled": true
             },
             "list-extensions": {
                "enabled": true
@@ -124,7 +124,7 @@
          "enabled": false
       },
       "font": {
-         "enabled": false
+         "enabled": true
       },
       "power": {
          "entrypoints": {
