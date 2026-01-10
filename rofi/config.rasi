@@ -7,8 +7,6 @@ configuration {
 	matching: "normal";
 	tokenize: true;
 
-	rofi-theme: "themes/launcher.rasi";
-
 	/*---------- Drun settings ----------*/
 	drun-match-fields: "name,exec,generic,comment";
 	drun-display-format: "{name}";
@@ -67,3 +65,6 @@ configuration {
      to accept an entry */
      me-accept-entry: [ MousePrimary ];
 }
+
+@import "themes/colors/black.rasi"
+@theme "themes/launcher.rasi" 
