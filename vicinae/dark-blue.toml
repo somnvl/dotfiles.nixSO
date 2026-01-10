@@ -9,11 +9,11 @@ variant = "dark"
 icon = "icons/ayu.png"
 
 [colors.core]
-background = "#0B0E14"        # UI background (darker than editor)
-foreground = "#BFBDB6"        # Main text
-secondary_background = "#0F131A"  # Editor background (elevated)
-border = "#1A1F29"            # Line color
-accent = "#59C2FF"            # Tag color
+background = "#000000"        # UI background (darker than editor)
+foreground = "#b0b8c2"        # Main text
+secondary_background = "#000000"  # Editor background (elevated)
+border = "#0000000"            # Line color
+accent = "#272c33"            # Tag color
 
 [colors.accents]
 blue = "#59C2FF"              # Entity
@@ -26,8 +26,8 @@ yellow = "#FFB454"            # Function
 cyan = "#95E6CB"              # Regexp
 
 [colors.list.item.selection]
-background = { name = "#131721", opacity = 0.7 }  # Slightly lighter than UI bg
-secondary_background = "#1A1F29"  # Line color on secondary
+background = { name = "#b0b8c2", opacity = 0.7 }  # Slightly lighter than UI bg
+secondary_background = "#b0b8c2"  # Line color on secondary
 
 [colors.list.item.hover]
-background = "#0E1017"        # Very subtle hover
+background = "#17191c"        # Very subtle hover
