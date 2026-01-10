@@ -1,30 +1,30 @@
 [meta]
 version = 1
 name = "dark-blue"
-description = "Minimal dark-blue theme"
+description = "Modern minimal dark theme"
 variant = "dark"
 icon = ""
 
 [colors.core]
-background = "#0f1113"
-foreground = "#b0b8c2"
-secondary_background = "#0a0c10" 
-border = "#0a0c10"   
-accent = "#232936" 
+background = "#08090a"        # UI background (darker than editor)
+foreground = "#b0b8c2"        # Main text
+secondary_background = "#08090a"  # Editor background (elevated)
+border = "#08090a"            # Line color
+accent = "#08090a"            # Tag color
 
 [colors.accents]
-blue = "#59C2FF"            
-green = "#AAD94C"       
-magenta = "#D2A6FF"          
-orange = "#FF8F40"          
-purple = "#c19eff"          
-red = "#F07178"             
-yellow = "#FFB454"         
-cyan = "#95E6CB"          
+blue = "#59C2FF"              # Entity
+green = "#AAD94C"             # String
+magenta = "#D2A6FF"           # Constant
+orange = "#FF8F40"            # Keyword
+purple = "#D2A6FF"            # Constant
+red = "#F07178"               # Error/VCS removed
+yellow = "#FFB454"            # Function
+cyan = "#95E6CB"              # Regexp
 
 [colors.list.item.selection]
-background = { name = "#151923", opacity = 0.6 } 
-secondary_background = "#151923"  
+background = { name = "#08090a", opacity = 0.7 }  # Slightly lighter than UI bg
+secondary_background = "#08090a"  # Line color on secondary
 
 [colors.list.item.hover]
-background = "#151923"  
+background = "#08090a"        # Very subtle hover
