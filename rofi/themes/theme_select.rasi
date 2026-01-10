@@ -8,7 +8,7 @@
  **/
 
 /*****----- Configuration -----*****/
-@import "colors/tokyonight.rasi"
+@import "colors/black.rasi"
 
 
 configuration {
