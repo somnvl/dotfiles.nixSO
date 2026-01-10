@@ -2,6 +2,7 @@
     "layer" : "top",
     "position" : "top",
     "width" : 2560,
+    "height" : 20,
     "margin" : "5 0",
 
     "group/gleft1" : {
