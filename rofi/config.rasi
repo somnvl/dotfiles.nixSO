@@ -3,14 +3,13 @@ configuration {
 	case-sensitive: false;
 	cycle: true;
 	normalize-match: true;
-	show-icons: true;
-	icon-theme: "Papirus";
+	show-icons: false;
 	matching: "normal";
 	tokenize: true;
 
 	/*---------- Drun settings ----------*/
 	drun-match-fields: "name,exec,generic,comment";
-	drun-display-format: "{name} \n[<span size='small'><i>{comment}</i></span>]";
+	drun-display-format: "{name}";
 	drun-url-launcher: "xdg-open";
 	drun-show-actions: false;
 	drun-use-desktop-cache: false;
@@ -20,18 +19,10 @@ configuration {
 		parse-system: true;
     }
 
+
 	/*---------- Run settings ----------*/
 	run-command: "{cmd}";
 	run-shell-command: "{terminal} -e {cmd}";
-
-	/*---------- Fallback Icon ----------*/
-	run, drun {
-		fallback-icon: "application-default-icon";
-	}
-
-	filebrowser {
-		fallback-icon: "application-x-zerosize";
-	}
 
 	/*---------- Window switcher settings ----------*/
 	window-match-fields: "title,class,role,name,desktop";
