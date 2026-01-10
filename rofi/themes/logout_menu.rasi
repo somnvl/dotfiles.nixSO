@@ -1,4 +1,4 @@
-@import "colors/tokyonight.rasi"
+@import "colors/black.rasi"
 @import "fonts/cascadia.rasi"
 
 /**
