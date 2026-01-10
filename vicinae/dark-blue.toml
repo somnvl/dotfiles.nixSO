@@ -6,11 +6,11 @@ variant = "dark"
 icon = ""
 
 [colors.core]
-background = "#141719"        # UI background (darker than editor)
+background = "#06080a"        # UI background (darker than editor)
 foreground = "#b0b8c2"        # Main text
-secondary_background = "#141719"  # Editor background (elevated)
-border = "#141719"            # Line color
-accent = "#141719"            # Tag color
+secondary_background = "#06080a"  # Editor background (elevated)
+border = "#06080a"            # Line color
+accent = "#06080a"            # Tag color
 
 [colors.accents]
 blue = "#59C2FF"              # Entity
@@ -23,8 +23,8 @@ yellow = "#FFB454"            # Function
 cyan = "#95E6CB"              # Regexp
 
 [colors.list.item.selection]
-background = { name = "#141719", opacity = 0.5 }  # Slightly lighter than UI bg
-secondary_background = "#141719"  # Line color on secondary
+background = { name = "#06080a", opacity = 0.5 }  # Slightly lighter than UI bg
+secondary_background = "#06080a"  # Line color on secondary
 
 [colors.list.item.hover]
-background = "#181c1f"        # Very subtle hover
+background = "#06080a"        # Very subtle hover
