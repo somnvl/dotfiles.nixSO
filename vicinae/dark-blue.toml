@@ -1,149 +1,75 @@
-# Example Theme Configuration
-# This file demonstrates all available theme configuration options for Vicinae.
-# You don't need to define all of these - only override what you want to customize.
-# Undefined colors will be automatically derived from core colors or inherited from base themes.
-#
-# Where a color name is expected, you can use the following hex formats:
-# #RGB
-# #RRGGBB
-# #AARRGGBB (with alpha)
-# 'transparent' (no color)
-# <color_ref> (e.g 'colors.accents.red'): references this theme's definition if available, the parent's otherwise
-#
-# Where a color is expected, you can either use a simple string for the color name or the following table syntax:
-# [colors.core]
-# accent = "accents.color.red"
-# OR:
-# accent = { name = "accents.color.red", opacity = 0.5 }
-# OR:
-# accent = { name = "accents.color.red", lighter = 100 }
-# OR:
-# accent = { name = "accents.color.red", darker = 150 }
-
 [meta]
-name = "Vicinae Dark"                         # Display name shown in theme picker
-description = "Default Vicinae dark palette"  # Description shown in theme picker
-variant = "dark"                              # Theme variant: "dark" or "light". Every dark theme inherits from vicinae-dark and every light theme from vicinae-light. 
-inherits = "vicinae-dark"                     # Optional: inherit from another theme (e.g., "vicinae-dark")
-icon = "icons/theme-name.png"                 # Optional: path to theme icon (relative to the theme directory it is placed in if not an absolute path)
-
-# ============================================================================
-# Core Colors
-# ============================================================================
-# These are the most important colors that define your theme's overall look.
-# Most other colors can be automatically derived from these if not specified.
+name = "Custom Base16 Dark"
+description = "Palette sombre gris-bleu personnalisée"
+variant = "dark"
+inherits = "vicinae-dark"
+icon = "icons/theme-name.png"
 
 [colors.core]
-accent = "#2f6fed"              # Primary accent color (used for input borders, text selection background...)
-accent_foreground = "#ffffff"   # Text color on accent-colored backgrounds
-background = "#1a1a1a"          # Main application background
-foreground = "#e8e6e1"          # Primary text color
-secondary_background = "#242424" # Background for surfaces elevated above main (popups, tooltips, panels)
-border = "#2e2e2e"              # Default border color throughout the UI
-
-# ============================================================================
-# Window-Specific Colors
-# ============================================================================
-# Override border colors for specific window types
+accent = "#4b5a6e"              # base0D (bleu-gris pour accent)
+accent_foreground = "#d1e0f4"    # base07
+background = "#000000"           # base00
+foreground = "#a1b0c4"           # base05
+secondary_background = "#13151a" # base01
+border = "#1b2a3e"               # base02
 
 [colors.main_window]
-border = "#2e2e2e"
+border = "#1b2a3e"               # base02
 
 [colors.settings_window]
-border = "#2e2e2e"
-
-# ============================================================================
-# Accent Colors
-# ============================================================================
-# Your color palette, central to your theme's identity
+border = "#1b2a3e"               # base02
 
 [colors.accents]
-blue = "#2f6fed"
-green = "#3a9c61"
-magenta = "#bc8cff"
-orange = "#f0883e"
-red = "#b9543b"
-yellow = "#bfae78"
-cyan = "#18a5b3"
-purple = "#bc8cff"
-
-# ============================================================================
-# Text Colors
-# ============================================================================
-# Colors for various text states and meanings
+blue = "#4b5a6e"                 # base0D
+green = "#7b8a9e"                # base0B (gris clair)
+magenta = "#6b7a8e"              # base0E
+orange = "#8b9aae"               # base0A
+red = "#5d6c80"                  # base08
+yellow = "#7b8a9e"               # base09
+cyan = "#6b7a8e"                 # base0C
+purple = "#6b7a8e"               # base0E
 
 [colors.text]
-default = "#e8e6e1"             # Usually same as core.foreground
-muted = "#e8e6e1"               # Secondary text: hints, less important info
-danger = "#b9543b"              # Errors or warnings
-success = "#3a9c61"             # Success or positive states
-placeholder = "#e8e6e1"			# input placeholder, search placeholder...
-selection = { background = "#2f6fed", foreground = "#ffffff" }
+default = "#a1b0c4"              # base05
+muted = "#7b8a9e"                # base04
+danger = "#5d6c80"               # base08
+success = "#7b8a9e"              # base0B
+placeholder = "#7b8a9e"          # base04
+selection = { background = "#4b5a6e", foreground = "#d1e0f4" }  # base0D + base07
 
 [colors.text.links]
-default = "#2f6fed"
-visited = "#bc8cff"
-
-# ============================================================================
-# Input Fields
-# ============================================================================
-# Colors for text inputs, search boxes, etc.
+default = "#4b5a6e"              # base0D
+visited = "#6b7a8e"              # base0E
 
 [colors.input]
-border = "#2e2e2e"
-border_focus = "#2f6fed"
-border_error = "#b9543b"
-
-# ============================================================================
-# Buttons
-# ============================================================================
-# Colors for button states
+border = "#1b2a3e"               # base02
+border_focus = "#4b5a6e"         # base0D
+border_error = "#5d6c80"         # base08
 
 [colors.button.primary]
-background = "#2e2e2e"
-foreground = "#e8e6e1"
-hover = { background = "#bb2e2e2e" }
+background = "#1b2a3e"           # base02
+foreground = "#a1b0c4"           # base05
+hover = { background = "#2b3a4e" }  # base03
 focus = { outline = "colors.core.accent" }
 
-# ============================================================================
-# Lists
-# ============================================================================
-# Colors for list items (horizontal list views)
-
 [colors.list.item.hover]
-background = "#2e2e2e"
-foreground = "#e8e6e1"
+background = "#1b2a3e"           # base02
+foreground = "#a1b0c4"           # base05
 
 [colors.list.item.selection]
-background = "#2e2e2e"          # Selected item on main background
-foreground = "#e8e6e1"
-secondary_background = "#2e2e2e" # Selected item on secondary surfaces (popups, panels)
-                                 # Light themes: lighter than primary selection
-                                 # Dark themes: lighter/brighter than primary selection
-secondary_foreground = "#e8e6e1"
-
-# ============================================================================
-# Grid Items
-# ============================================================================
-# Colors for grid-based layouts (icon grids, tiles, etc.)
+background = "#13151a"           # base01
+foreground = "#c1d0e4"           # base06
+secondary_background = "#1b2a3e" # base02
+secondary_foreground = "#a1b0c4" # base05
 
 [colors.grid.item]
-background = "#242424"
-hover = { outline = "#e8e6e1" }
-selection = { outline = "#e8e6e1" }
-
-# ============================================================================
-# Scrollbars
-# ============================================================================
+background = "#13151a"           # base01
+hover = { outline = "#a1b0c4" }  # base05
+selection = { outline = "#c1d0e4" } # base06
 
 [colors.scrollbars]
-background = "#2e2e2e"
-
-# ============================================================================
-# Loading Indicators
-# ============================================================================
+background = "#1b2a3e"           # base02
 
 [colors.loading]
-bar = "#e8e6e1"     # shown right below the search bar when something is loading
-spinner = "#e8e6e1" # used by dynamic toasts
-
+bar = "#a1b0c4"                  # base05
+spinner = "#7b8a9e"              # base04
