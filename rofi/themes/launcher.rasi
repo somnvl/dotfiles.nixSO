@@ -68,9 +68,9 @@ window {
 /*****----- Main Box -----*****/
 mainbox {
     enabled:                     true;
-    spacing:                     20px;
+    spacing:                     10px;
     margin:                      0px;
-    padding:                     40px;
+    padding:                     20px;
     border:                      0px solid;
     border-radius:               0px 0px 0px 0px;
     border-color:                @border-colour;
@@ -85,7 +85,7 @@ inputbar {
     margin:                      0px;
     padding:                     10px;
     border:                      0px;
-    border-radius:               4px;
+    border-radius:               10px;
     border-color:                @border-colour;
     background-color:            @alternate-background;
     text-color:                  @foreground-colour;
@@ -105,7 +105,7 @@ entry {
     background-color:            inherit;
     text-color:                  inherit;
     cursor:                      text;
-    placeholder:                 "Search...";
+    placeholder:                 "  ";
     placeholder-color:           inherit;
 }
 num-filtered-rows {
