@@ -1,75 +1,75 @@
 [meta]
-name = "Custom Base16 Dark"
-description = "Palette sombre gris-bleu personnalisée"
+name = "dark-blue"
+description = "Dark blue-gray palette"
 variant = "dark"
 inherits = "vicinae-dark"
-icon = "icons/theme-name.png"
+icon = ""
 
 [colors.core]
-accent = "#4b5a6e"              # base0D (bleu-gris pour accent)
-accent_foreground = "#d1e0f4"    # base07
-background = "#000000"           # base00
-foreground = "#a1b0c4"           # base05
-secondary_background = "#13151a" # base01
-border = "#1b2a3e"               # base02
+accent = "#4b5a6e"
+accent_foreground = "#d1e0f4"
+background = "#000000"
+foreground = "#a1b0c4"
+secondary_background = "#13151a"
+border = "#1b2a3e"
 
 [colors.main_window]
-border = "#1b2a3e"               # base02
+border = "#1b2a3e"
 
 [colors.settings_window]
-border = "#1b2a3e"               # base02
+border = "#1b2a3e"
 
 [colors.accents]
-blue = "#4b5a6e"                 # base0D
-green = "#7b8a9e"                # base0B (gris clair)
-magenta = "#6b7a8e"              # base0E
-orange = "#8b9aae"               # base0A
-red = "#5d6c80"                  # base08
-yellow = "#7b8a9e"               # base09
-cyan = "#6b7a8e"                 # base0C
-purple = "#6b7a8e"               # base0E
+blue = "#4b5a6e"
+green = "#7b8a9e"
+magenta = "#6b7a8e"
+orange = "#8b9aae"
+red = "#5d6c80"
+yellow = "#7b8a9e"
+cyan = "#6b7a8e"
+purple = "#6b7a8e"
 
 [colors.text]
-default = "#a1b0c4"              # base05
-muted = "#7b8a9e"                # base04
-danger = "#5d6c80"               # base08
-success = "#7b8a9e"              # base0B
-placeholder = "#7b8a9e"          # base04
-selection = { background = "#4b5a6e", foreground = "#d1e0f4" }  # base0D + base07
+default = "#a1b0c4"
+muted = "#7b8a9e"
+danger = "#5d6c80"
+success = "#7b8a9e"
+placeholder = "#7b8a9e"
+selection = { background = "#4b5a6e", foreground = "#d1e0f4" }
 
 [colors.text.links]
-default = "#4b5a6e"              # base0D
-visited = "#6b7a8e"              # base0E
+default = "#4b5a6e"
+visited = "#6b7a8e"
 
 [colors.input]
-border = "#1b2a3e"               # base02
-border_focus = "#4b5a6e"         # base0D
-border_error = "#5d6c80"         # base08
+border = "#1b2a3e"
+border_focus = "#4b5a6e"
+border_error = "#5d6c80"
 
 [colors.button.primary]
-background = "#1b2a3e"           # base02
-foreground = "#a1b0c4"           # base05
-hover = { background = "#2b3a4e" }  # base03
+background = "#1b2a3e"
+foreground = "#a1b0c4"
+hover = { background = "#2b3a4e" }
 focus = { outline = "colors.core.accent" }
 
 [colors.list.item.hover]
-background = "#1b2a3e"           # base02
-foreground = "#a1b0c4"           # base05
+background = "#1b2a3e"
+foreground = "#a1b0c4"
 
 [colors.list.item.selection]
-background = "#13151a"           # base01
-foreground = "#c1d0e4"           # base06
-secondary_background = "#1b2a3e" # base02
-secondary_foreground = "#a1b0c4" # base05
+background = "#13151a"
+foreground = "#c1d0e4"
+secondary_background = "#1b2a3e"
+secondary_foreground = "#a1b0c4"
 
 [colors.grid.item]
-background = "#13151a"           # base01
-hover = { outline = "#a1b0c4" }  # base05
-selection = { outline = "#c1d0e4" } # base06
+background = "#13151a"
+hover = { outline = "#a1b0c4" }
+selection = { outline = "#c1d0e4" }
 
 [colors.scrollbars]
-background = "#1b2a3e"           # base02
+background = "#1b2a3e"
 
 [colors.loading]
-bar = "#a1b0c4"                  # base05
-spinner = "#7b8a9e"              # base04
+bar = "#a1b0c4"
+spinner = "#7b8a9e"
