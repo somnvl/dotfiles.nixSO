@@ -25,11 +25,16 @@ remove_airplane_btn = true
 remove_idle_btn = true
 remove_power_btn = true
 indicators = ["Audio", "Bluetooth", "Network", "Battery",]
+shutdown_cmd = "shutdown now"
+suspend_cmd = "systemctl suspend"
+hibernate_cmd = "systemctl hibernate"
+reboot_cmd = "systemctl reboot"
+logout_cmd = "loginctl kill-user $(whoami)"
 
 [appearance]
 style = "Islands"
 font_name = "JetBrainsMono Nerd Font"
-opacity = 0.8
+opacity = 0.9
 scale_factor = 0.8
 primary_color = "#171a1f"
 success_color = "#9ece6a"
@@ -38,8 +43,8 @@ workspace_colors = [ "#7aa2f7", "#9ece6a" ]
 special_workspace_colors = [ "#7aa2f7", "#9ece6a" ]
 
 [appearance.menu]
-opacity = 0.7
-backdrop = 0.3
+opacity = 0.9
+backdrop = 0
 
 [appearance.danger_color]
 base = "#470919"
