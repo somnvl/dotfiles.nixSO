@@ -4,7 +4,7 @@ position = "Top"
 app_launcher_cmd = "walker"
 
 [modules]
-left = [ [ "Workspaces" "Media Player" ] ]
+left = [ [ "Workspaces" "MediaPlayer" ] ]
 center = [ ]
 right = [ [  "Tray", "Clock", "Privacy", "Settings" ] ]
 
