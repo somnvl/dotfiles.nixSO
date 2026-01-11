@@ -640,25 +640,7 @@ binds {
 }
 
 recent-windows {
-    debounce-ms 750
-    open-delay-ms 150
-
-    highlight {
-        active-color "#00000000"
-        urgent-color "#00000000"
-        padding 8
-        corner-radius 18
-    }
-
-    // Previews avec style minimaliste et positionné bas
-    previews {
-        max-height 480
-        max-scale 0.5
-        border-radius 18
-        background-color "#00000000"
-        border {
-            width 0
-        }
+    off
     }
 
     binds {
@@ -673,8 +655,6 @@ recent-windows {
         Mod+Shift+grave { previous-window filter="app-id"; }
     }
 }
-
-
 
 
 
