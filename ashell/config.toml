@@ -5,14 +5,14 @@ position = "Top"
 [modules]
 left = [ [ "Workspaces" ] ]
 center = [ ]
-right = [ [  "Tray", "Clock", "Privacy", "Settings" ] ]
+right = [  "Tray", "Settings",  "Privacy", "Clock" ]
 
 [clock]
 format = "%X   %x"
 
 [workspaces]
 enable_workspace_filling = true
-workspace_names = ["  "]
+workspace_names = ["","","",""]
 
 [settings]
 battery_format = "Percentage"
