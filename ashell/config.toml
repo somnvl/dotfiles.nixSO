@@ -29,21 +29,28 @@ bluetooth_more_cmd = "blueberry"
 
 [appearance]
 style = "Islands"
-
-primary_color = "#7aa2f7"
+font_name = "JetBrainsMono Nerd Font"
+opacity = 0.8
+scale_factor = 0.8
+primary_color = "#171a1f"
 success_color = "#9ece6a"
-text_color = "#a9b1d6"
+text_color = "#808a96"
 workspace_colors = [ "#7aa2f7", "#9ece6a" ]
 special_workspace_colors = [ "#7aa2f7", "#9ece6a" ]
 
+[appearance.menu]
+opacity = 0.7
+backdrop = 0.3
+
 [appearance.danger_color]
-base = "#f7768e"
-weak = "#e0af68"
+base = "#470919"
+weak = "#171a1f"
 
 [appearance.background_color]
-base = "#000000"
-weak = "#24273a"
+base = "#06080a"
+weak = "#171a1f"
 strong = "#000000"
+text = "#808a96"
 
 [appearance.secondary_color]
-base = "#0c0d14"
+base = "#06080a"
