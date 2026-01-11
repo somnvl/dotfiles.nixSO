@@ -1,7 +1,6 @@
 log_level = "warn"
 outputs = { Targets = ["eDP-1"] }
 position = "Top"
-app_launcher_cmd = "walker"
 
 [modules]
 left = [ [ "Workspaces" ] ]
