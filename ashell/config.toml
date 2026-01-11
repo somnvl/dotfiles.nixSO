@@ -38,9 +38,9 @@ opacity = 0.8
 scale_factor = 0.9
 primary_color = "#13151a"
 success_color = "#13151a"
-text_color = "#13151a"
+text_color = "#9aa6b5"
 workspace_colors = [ "#13151a", "#13151a" ]
-special_workspace_colors = [ "#13151a", "#13151a" ]
+special_workspace_colors = [ "#9aa6b5", "#9aa6b5" ]
 
 [appearance.menu]
 opacity = 0.9
