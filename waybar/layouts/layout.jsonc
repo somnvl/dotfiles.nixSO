@@ -19,7 +19,7 @@
 
 
 
-    "modules-left"   : ["clock"],
+    "modules-left"   : [],
     "modules-center" : [],
     "modules-right"  : ["clock"],
 
