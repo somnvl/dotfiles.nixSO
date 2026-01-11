@@ -4,20 +4,12 @@ position = "Top"
 app_launcher_cmd = "walker"
 
 [modules]
-left = [ [ "WindowTitle" ] ]
-center = [ "Workspaces"]
+left = [ [ "Workspaces" ] ]
+center = [ ]
 right = [ [  "Tray", "Clock", "Privacy", "Settings" ] ]
 
 [workspaces]
 enable_workspace_filling = true
-
-[[CustomModule]]
-name = "appLauncher"
-icon = "󱗼"
-command = "walker"
-
-[window_title]
-truncate_title_after_length = 100
 
 [settings]
 lock_cmd = "playerctl --all-players pause; nixGL hyprlock &"
