@@ -9,14 +9,11 @@ center = [ ]
 right = [ [  "Tray", "Clock", "Privacy", "Settings" ] ]
 
 [clock]
-format = "%X %x"
+format = "%X   %x"
 
 [workspaces]
 enable_workspace_filling = true
-workspace_names = ["一","二","三","四","五","六","七","八","九","十",]
-
-[media_player]
-max_title_length = 50
+workspace_names = ["  "]
 
 [settings]
 battery_format = "Percentage"
@@ -27,7 +24,8 @@ wifi_more_cmd = "nm-connection-editor"
 bluetooth_more_cmd = "blueberry"
 remove_airplane_btn = true
 remove_idle_btn = true
-indicators = ["Battery", "Bluetooth", "Network", "Audio"]
+remove_power_btn = true
+indicators = ["Audio", "Bluetooth", "Network", "Battery",]
 
 [appearance]
 style = "Islands"
