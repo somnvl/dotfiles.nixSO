@@ -103,6 +103,12 @@ output "eDP-1" {
     // position x=1280 y=0
 }
 
+cursor {
+    xcursor-theme "miku" 
+    xcursor-size 48 
+    hide-after-inactive-ms 3000  
+}
+
 // Settings that influence how windows are positioned and sized.
 // Find more information on the wiki:
 // https://yalter.github.io/niri/Configuration:-Layout
@@ -631,6 +637,7 @@ binds {
     // moving the mouse or pressing any other key.
     Mod+Shift+P { power-off-monitors; }
 }
+
 
 
 
