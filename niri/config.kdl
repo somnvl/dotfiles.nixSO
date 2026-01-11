@@ -104,8 +104,8 @@ output "eDP-1" {
 }
 
 cursor {
-    xcursor-theme "Bibata-Modern-Classic"
-    xcursor-size 24
+    xcursor-theme "miku"
+    xcursor-size 50
     hide-after-inactive-ms 5000
 }
 
@@ -642,6 +642,7 @@ binds {
 recent-windows {
     off
     }
+
 
 
 
