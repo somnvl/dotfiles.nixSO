@@ -5,7 +5,7 @@ position = "Top"
 [modules]
 left = [ [ "Workspaces" ] ]
 center = [ ]
-right = [  "Tray", "Settings",  "Privacy", "Clock" ]
+right = [  "Tray", "Settings", "Privacy", "Clock" ]
 
 [clock]
 format = "%X   %x"
@@ -24,7 +24,7 @@ bluetooth_more_cmd = "blueberry"
 remove_airplane_btn = true
 remove_idle_btn = true
 remove_power_btn = true
-indicators = ["Audio", "Battery",]
+indicators = ["Battery",]
 shutdown_cmd = "shutdown now"
 suspend_cmd = "systemctl suspend"
 hibernate_cmd = "systemctl hibernate"
